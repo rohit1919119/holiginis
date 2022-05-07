@@ -10,6 +10,14 @@ body {
     margin: 0
 }
 
+
+.footer__social {
+    background-color: #00073f;
+    padding-top: 3.5rem !important;
+    padding-bottom: 10rem !important;
+    border-top: 0px solid #ffffff;
+}
+
 article,
 aside,
 details,
@@ -1482,11 +1490,11 @@ th {
 }
 
 .icon-left:before {
-    content: "\21"
+    content: "<"
 }
 
 .icon-right:before {
-    content: "\22"
+    content: ">"
 }
 
 .icon-up-arrow-long:before {
@@ -8153,10 +8161,11 @@ html.no-touch .slick-slide .product--hover,
     margin: 0 0.25rem 0.25rem;
     padding: 0.5rem 0;
     font-size: 0.833rem;
-    border: 1px solid #00073f;
-    text-align: center;
+    padding: 0 15px;
+    border:0px solid ;
+    text-align: justify;
     opacity: 0.8;
-    width: 33%;
+    width: 100%;
     -webkit-transition: all ease-in-out 0.2s;
     transition: all ease-in-out 0.2s
 }
@@ -8196,7 +8205,6 @@ html.no-touch .slick-slide .product--hover,
 .product__options__buy {
     background: #ffffff;
     color: #00073f;
-    border: 1px solid #00073f
 }
 
 .product__options__view.product__options__view--out-of-stock:hover {
